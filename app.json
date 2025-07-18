@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RN_Protfolio",
-    "slug": "RN_Protfolio",
+    "name": "MovieFlix",
+    "slug": "MovieFlix",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
