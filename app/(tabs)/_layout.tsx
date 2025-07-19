@@ -39,12 +39,11 @@ const _layout = () => {
         tabBarStyle: {
           backgroundColor: "#0f0D23",
           borderRadius: 50,
-          marginHorizontal: 20,
+          marginHorizontal: 10,
           marginBottom: 36,
           height: 52,
           position: "absolute",
           overflow: "hidden",
-          borderWidth: 1,
           borderColor: "0f0d23",
         },
       }}
@@ -113,7 +112,7 @@ const style = StyleSheet.create({
     flexDirection: "row",
     width: "100%",
     minWidth: 112,
-    minHeight: 64,
+    minHeight: 52,
     marginTop: 16,
     justifyContent: "center",
     alignItems: "center",
