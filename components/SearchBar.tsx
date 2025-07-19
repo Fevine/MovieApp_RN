@@ -5,10 +5,17 @@ import { icons } from "@/constants/icons";
 
 interface Props {
   placeholder: string;
-  onPress: () => void;
+  onPress?: () => void;
+  onChangeText: (text: string) => void;
+  value: string;
 }
 
-export default function SearchBar({ placeholder, onPress }: Props) {
+export default function SearchBar({
+  placeholder,
+  onPress,
+  value,
+  onChangeText,
+}: Props) {
   return (
     <View style={styles.container}>
       <Image
@@ -20,8 +27,8 @@ export default function SearchBar({ placeholder, onPress }: Props) {
       <TextInput
         onPress={onPress}
         placeholder={placeholder}
-        value=""
-        onChangeText={() => {}}
+        value={value}
+        onChangeText={onChangeText}
         placeholderTextColor={"#a8b5db"}
         style={styles.searchInput}
       />
